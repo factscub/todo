@@ -1,0 +1,16 @@
+.innertext{
+    /* width: 30%; */
+    overflow-wrap: break-word;
+    /* background-color: red; */
+}
+.innerbox{
+    width: 50%;
+}
+.delete,.cancel{
+    width: 70px;
+    padding: 5px 10px;
+    margin: 10px 30px;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+

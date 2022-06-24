@@ -1,0 +1,25 @@
+
+*{
+    transition: all 0.2s ease;
+}
+.inactive,.active{
+    display: block;
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+    padding: 5px 5px;
+    margin: 10px auto;
+    /* background-color: blue; */
+}
+.inactive:hover{
+    background-color: rgb(243, 238, 238);
+    border-radius: 5px;
+    color: black;
+
+
+}
+.active{
+    text-decoration: none;
+    background-color: rgb(243, 238, 238);
+    border-radius: 5px;
+}

@@ -1,0 +1,76 @@
+header {
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid rgb(219, 214, 214);
+}
+
+p {
+    cursor: pointer;
+    margin: auto 30px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+form {
+    width: 50%;
+}
+
+input[type=text] {
+    height: 40px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(243, 238, 238);
+}
+
+input[type=text]:focus {
+    outline: none;
+}
+
+.newtask {
+    height: 40px;
+    width: 15%;
+    border-radius: 15px;
+    margin-right: 30px;
+    padding: 10px;
+    font-weight: 600;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2615E0;
+    cursor: pointer;
+}
+
+.img {
+    width: 40px;
+    height: 40px;
+    margin-right: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-image: url('https://images.unsplash.com/photo-1527960669566-f882ba85a4c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.authoptions{
+
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+
+}
+
+ .link {
+    margin: 5px 10px;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}

@@ -1,0 +1,9 @@
+input[type=password]{
+    width: 250px;
+    border: none;
+}
+#username,#email{
+    width: 250px;
+    border: none;
+    border-radius: 0;
+}
